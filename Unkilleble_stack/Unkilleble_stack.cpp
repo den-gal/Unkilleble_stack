@@ -3,12 +3,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
-#include "Templates.h"
-
+#include "Defines.h"
 
 int main()
 {
-    bool constr = true, destr = true, erase=true;
+    /*bool constr = true, destr = true, erase=true;
     Template_(Stack, int) stack;
     constr = Template_(StackConstr, int) (&stack,30);
     Template_(Push, int)(&stack, 10);
@@ -17,5 +16,7 @@ int main()
     destr = Template_(StackDestr, int)(&stack);
     if (destr && constr && erase)
         printf("Stack with int type works correctly");
+     */
+    printf("dfdf");
 }
 

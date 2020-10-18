@@ -1,6 +1,6 @@
 #ifdef TYPE
-
-	#include "Templates.h"
+	#include "Stack.h"
+	
 	struct Template_(Stack, TYPE)
 	{
 		int size;
@@ -68,6 +68,5 @@
 		stack->size--;
 		return elem;
 	}
-
 
 #endif 

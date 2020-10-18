@@ -1,19 +1,12 @@
-#pragma once
-#include <sys/types.h>
-#include <stdlib.h>
-#include <assert.h>
-#include <stdint.h>
-#include <stdio.h>
+#ifdef TYPE	   
+	#include "Templates.h" 
 
-#ifdef TYPE
-
-	#include "Templates.h"    
-	
 	typedef struct Template_(Stack, TYPE)
 	{
 		int size;
 		int capacity;
 		TYPE* data;
+
 	} Template_(Stack, TYPE);
 
 	bool Template_(StackConstr, TYPE)(Template_(Stack, TYPE) * stack, int capacity);
